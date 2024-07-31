@@ -1,0 +1,77 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+Client/PostHub/android/app/build/
+Client/PostHub/build/
+Client/PostHub/*.pbxuser
+Client/PostHub/!default.pbxuser
+Client/PostHub/*.mode1v3
+Client/PostHub/!default.mode1v3
+Client/PostHub/*.mode2v3
+Client/PostHub/!default.mode2v3
+Client/PostHub/*.perspectivev3
+Client/PostHub/!default.perspectivev3
+Client/PostHub/xcuserdata
+Client/PostHub/*.xccheckout
+Client/PostHub/*.moved-aside
+Client/PostHub/DerivedData
+Client/PostHub/*.hmap
+Client/PostHub/*.ipa
+Client/PostHub/*.xcuserstate
+Client/PostHub/**/.xcode.env.local
+
+# Android/IntelliJ
+#
+Client/PostHub/build/
+Client/PostHub/.idea
+Client/PostHub/.gradle
+Client/PostHub/local.properties
+Client/PostHub/*.iml
+Client/PostHub/*.hprof
+Client/PostHub/.cxx/
+Client/PostHub/*.keystore
+Client/PostHub/!debug.keystore
+
+# node.js
+#
+Client/PostHub/node_modules/
+Client/PostHub/npm-debug.log
+Client/PostHub/yarn-error.log
+Server/.env
+Server/node_modules/
+
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+Client/PostHub/**/fastlane/report.xml
+Client/PostHub/**/fastlane/Preview.html
+Client/PostHub/**/fastlane/screenshots
+Client/PostHub/**/fastlane/test_output
+
+# Bundle artifact
+Client/PostHub/*.jsbundle
+
+# Ruby / CocoaPods
+Client/PostHub/Pods/
+Client/PostHub/vendor/bundle/
+
+# Temporary files created by Metro to check the health of the file watcher
+Client/PostHub/.metro-health-check*
+
+# testing
+Client/PostHub/coverage/
+
+# Yarn
+Client/PostHub/.yarn/*
+Client/PostHub/!.yarn/patches
+Client/PostHub/!.yarn/plugins
+Client/PostHub/!.yarn/releases
+Client/PostHub/!.yarn/sdks
+Client/PostHub/!.yarn/versions
