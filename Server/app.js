@@ -25,7 +25,7 @@ app.use(morgan("dev"));
 
 //PORT
 
-const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT || 4000;
 
 //Routes
 
@@ -36,6 +36,6 @@ app.use("/api/v1/auth", require("./routes/Auth/userRoutes"));
 app.use("/api/v1/post", require("./routes/postRoutes"));
 //listen
 
-app.listen(PORT, "0.0.0.0", () => {
+app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`.bgGreen.bold);
 });
