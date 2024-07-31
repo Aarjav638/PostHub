@@ -4,7 +4,7 @@ import React from 'react';
 const Splash = () => {
   return (
     <View style={styles.container}>
-      <Text>Splash Screen</Text>
+      <Image source={require('../assets/Icon.png')} />
     </View>
   );
 };
